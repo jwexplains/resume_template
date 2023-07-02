@@ -1,0 +1,128 @@
+\documentclass[10pt]{resume}  % Utilize resume.cls template
+
+\newcommand{\tab}[1]{\hspace{.3\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%for social icons
+\usepackage{fontawesome5}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue, % You can change the color of URLs here
+    citecolor=black
+}
+
+
+\name{Your Name} % Your name
+
+\address{\raisebox{-0.05\height}\faPhone\ +1(123) 456-7890 \ $|$ \
+\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ https://linkedin.com/in/username} \ $|$ \ 
+\href{https://jwexplains.com}{\raisebox{-0.05\height}\faGlobe \ jwexplains.com} \ $|$ \ %check out this site for more internship tips!
+\href{mailto:username@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ username@gmail.com}}
+
+
+\begin{document}
+
+% \end{rSection}
+% %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+% {\bf Master of Computer Science}, Stanford University \hfill {Expected 2020}\\
+% Relevant Coursework: A, B, C, and D.
+
+{\bf B.S. Your Major}, College \hfill {Expected Graduation Date}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Cumulative GPA: X/4.0
+     \item Relevant Coursework: Course A, Course B, Course C...
+ \end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & English(Native), ...
+\\
+Programming Languages & (If applicable)\\
+Technical Stacks & (If applicable)
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Your Role} \hfill Length\\
+Company Name - \textit{description, if not a well-known corporate} \hfill \textit{Location}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+    \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+    \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+ \end{itemize}
+
+\textbf{Your Role} \hfill Length\\
+Company Name - \textit{description, if not a well-known corporate} \hfill \textit{Location}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+    \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+    \item Did X, Y, Z by using A, B, C, which resulted in n\% growth.
+ \end{itemize}
+
+ 
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS} % Or volunteer, leadership etc.
+\vspace{-1.25em}
+
+\item \href{www.jwexplains.com}{\textbf{jwexplains.com (jwexplains: How To)}} \hfill July 2023 - Present\\
+Website Owner \hfill \textit{Location}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Create a website that provides tutorials on "how to" become more knowledgeable in various technical domains.
+     \item Gather X number of audience through the blog.
+ \end{itemize}
+
+\item \textbf{Project Name} \hfill Length\\
+Your Role \hfill \textit{Location}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Developed a software that does X, Y, Z using A, B, C
+     \item Raised X dollars funding and Y dollars profit
+
+ \end{itemize}
+ 
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Honors} 
+
+\textbf{Award Name} \hfill Date of award\\
+Issued by ... \hfill \textit{Location}
+ \begin{itemize}
+    \itemsep -6pt {} 
+     \item Selected as 1 of X students for excellence in A. Awarded X amount of scholarship.
+
+ \end{itemize}
+
+\end{rSection}
+
+% Feel free to add more sections here!
+
+\end{document}
+
+
+
+% Please feel free to send me comments via www.jwexplains.com! Any feedback is appreciated. Thank you!
